@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahul - Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 34);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 71);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(151, 151, 229);
+        font-size: 1.03rem;
+      }
+
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+
+      .firstSection > div {
+        width: 40%;
+      }
+
+      .leftSection {
+        font-size: 3rem;
+        margin: 50px 0;
+      }
+
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+
+      .leftSection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      .purple {
+        color: rgb(170, 105, 230);
+      }
+
+      #element {
+        color: rgb(170, 105, 230);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        margin-bottom: 450px;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .text-gray {
+        color: gray;
+      }
+
+      .secondSection .box {
+        background-color: white;
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+
+      .image-top {
+        width: 46px;
+        position: relative;
+        top: -56px;
+        left: -20px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 67px;
+        width: 150px;
+        font-size: 14px;
+      }
+
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+
+      footer {
+        background-color: #0e0e1a;
+        /* height: 233px; */
+        padding-top: 20px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+
+      footer .footer-fourth {
+        color: white;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Welcome to My Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/Personal Portfolio/">Home</a></li>
+            <li><a href="/Personal Portfolio/">About</a></li>
+            <li><a href="/Personal Portfolio/">Services</a></li>
+            <li><a href="/Personal Portfolio/">Projects</a></li>
+            <li><a href="/Personal Portfolio/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      
+
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Rahul</span>
+          <div>a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="https://github.com/rahulkewat001" target="_blank"
+              ><button class="btn">Visit Github</button></a
+            >
+            <a
+              href="https://www.linkedin.com/in/rahul-kewat-30a8b5276/"
+              target="_blank"
+              ><button class="btn">Linkdin</button></a
+            >
+            <a href="https://leetcode.com/u/codewithRahul001/" target="_blank"
+              ><button class="btn">leetcode</button></a
+            >
+            <a href="https://www.instagram.com/rahul_alive1/" target="_blank"
+              ><button class="btn">Instagram</button></a
+            >
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bag1.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I Have Done So Far</span>
+        <h1>Technical Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="HCJ.png" alt="Developer Icon" />
+            <div class="vertical-title">
+              Built a fully responsive personal website using HTML, CSS and
+              JavaScript to showcase my skills and projects.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="DSA.png" alt="Developer Icon" />
+            <div class="vertical-title">
+              Gaining problem-solving proficiency through regular DSA practice
+              on platforms like LeetCode and GeeksforGeeks.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Developer.png" alt="Developer Icon" />
+            <div class="vertical-title">
+              Developing skills in HTML, CSS, and JavaScript by cloning
+              real-world websites.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Web Developer</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Work</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Cookies Policy</li>
+            <li>+91 6206271326</li>
+            <li>Terms&Conditoins</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <a href="https://www.linkedin.com/in/rahul-kewat-30a8b5276/" target="_blank"><li>Linkdin</li></a>
+            <a href="https://github.com/rahulkewat001" target="_blank"><li>Github</li></a>
+            <li>rahulkewat68734@gmail.com</li>
+            <a href="https://www.instagram.com/rahul_alive1/" target="_blank"><li>Instagram</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; rahulsportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "problem-solver",
+          "with a strong command",
+          " of DSA.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+
+    
+    </script>
+  </body>
+</html>
